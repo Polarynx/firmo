@@ -531,7 +531,7 @@ export default function App() {
       <header className="border-b border-gray-200 dark:border-gray-800 bg-gray-50/90 dark:bg-gray-950/90 backdrop-blur-sm sticky top-0 z-10">
         <div className="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-brand-600 to-indigo-400 bg-clip-text text-transparent">
+            <span className="text-xl font-bold tracking-tight text-brand-600 dark:text-brand-400">
               Firmo
             </span>
             <button
@@ -669,7 +669,7 @@ export default function App() {
         <div className="flex flex-col gap-2">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
             Is your{' '}
-            <span className="bg-gradient-to-r from-brand-600 to-indigo-400 bg-clip-text text-transparent">claim</span>{' '}
+            <span className="text-brand-600 dark:text-brand-400">claim</span>{' '}
             backed by science?
           </h1>
           <p className="text-gray-500 dark:text-gray-400">
